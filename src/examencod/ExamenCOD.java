@@ -23,14 +23,14 @@ public class ExamenCOD {
 
     public static boolean myMethod(int result) {
         int j = 2;
-        boolean aux = true;
-        while ((aux) && (j != result)) {
+        boolean verificador = true;
+        while ((verificador) && (j != result)) {
             if (result % j == 0) {
-                aux = false;
+                verificador = false;
             }
             j++;
         }
-        return aux;
+        return verificador;
     }
 
 }
