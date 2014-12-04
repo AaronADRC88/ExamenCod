@@ -14,9 +14,9 @@ public class ExamenCOD {
             System.out.println("NO es numero primo");
         }
 
-        for (int x = 2; x < 1000; x++) {
-            if (myMethod(x)) {
-                System.out.print(x + " ");
+        for (int contador = 2; contador < 1000; contador++) {
+            if (myMethod(contador)) {
+                System.out.print(contador + " ");
             }
         }
     }
